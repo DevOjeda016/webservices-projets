@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portal Escolar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Portal Escolar</h1>
+    <p id="estado-conexion" class="offline-badge oculto">Modo offline</p>
+    <nav class="tabs">
+      <button class="tab activo" data-vista="inicio">Inicio</button>
+      <button class="tab" data-vista="calificaciones">Calificaciones</button>
+      <button class="tab" data-vista="datos-personales">Datos Personales</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="vista-inicio" class="vista activa">
+      <div id="resumen-alumno" class="tarjeta-resumen"></div>
+    </section>
+
+    <section id="vista-calificaciones" class="vista">
+      <h2>Historial de Calificaciones</h2>
+      <div id="lista-calificaciones"></div>
+    </section>
+
+    <section id="vista-datos-personales" class="vista">
+      <h2>Datos Personales</h2>
+      <div id="datos-personales"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

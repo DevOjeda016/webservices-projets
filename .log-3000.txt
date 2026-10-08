@@ -1,0 +1,5 @@
+
+> zodiaco-backend@1.0.0 start
+> node server.js
+
+API Zodiaco corriendo en http://localhost:3000

@@ -1,0 +1,12 @@
+{
+  "name": "portal-escolar-backend",
+  "version": "1.0.0",
+  "description": "API simple del portal escolar (alumno y calificaciones)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

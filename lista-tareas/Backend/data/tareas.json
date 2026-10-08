@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1789958068395",
+    "texto": "fdesfsdfsd",
+    "completada": true,
+    "creadaEn": "2026-09-21T02:34:28.395Z"
+  },
+  {
+    "id": "1789958099837",
+    "texto": "fsdfsd",
+    "completada": false,
+    "creadaEn": "2026-09-21T02:34:59.837Z"
+  },
+  {
+    "id": "1789958099857",
+    "texto": "dsfsdf",
+    "completada": true,
+    "creadaEn": "2026-09-21T02:34:59.858Z"
+  },
+  {
+    "id": "1790207556904",
+    "texto": "hacer mi tarea de Augusto",
+    "completada": false,
+    "creadaEn": "2026-09-23T23:52:36.904Z"
+  }
+]

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda de Refrescos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Tienda de Refrescos</h1>
+    <p id="estado-conexion" class="offline-badge oculto">Modo offline</p>
+  </header>
+
+  <div class="layout">
+    <main>
+      <div class="filtros">
+        <button class="filtro activo" data-filtro="todas">Todas</button>
+        <button class="filtro" data-filtro="Cola">Cola</button>
+        <button class="filtro" data-filtro="Citricos">Citricos</button>
+        <button class="filtro" data-filtro="Frutales">Frutales</button>
+        <button class="filtro" data-filtro="Otros">Otros</button>
+      </div>
+
+      <div id="grid-refrescos" class="grid"></div>
+    </main>
+
+    <aside id="panel-carrito" class="panel-carrito">
+      <h2>Tu carrito (<span id="contador-carrito">0</span>)</h2>
+      <div id="items-carrito"></div>
+      <p id="total-carrito"></p>
+      <button id="confirmar-pedido" class="btn-confirmar">Confirmar pedido</button>
+      <div id="resultado-pedido"></div>
+    </aside>
+  </div>
+
+  <section class="historial">
+    <h2>Historial de pedidos</h2>
+    <div id="lista-historial"></div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

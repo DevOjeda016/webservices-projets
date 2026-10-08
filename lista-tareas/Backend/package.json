@@ -1,0 +1,12 @@
+{
+  "name": "lista-tareas-backend",
+  "version": "1.0.0",
+  "description": "API de lista de tareas con persistencia en archivo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zodiaco</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Zodiaco</h1>
+    <p id="estado-conexion" class="offline-badge oculto">Modo offline</p>
+  </header>
+
+  <main>
+    <section class="buscador">
+      <h2>Encuentra tu signo</h2>
+      <form id="form-fecha">
+        <label>
+          Dia
+          <input type="number" id="dia" min="1" max="31" required />
+        </label>
+        <label>
+          Mes
+          <input type="number" id="mes" min="1" max="12" required />
+        </label>
+        <button type="submit">Buscar</button>
+      </form>
+      <div id="resultado-busqueda"></div>
+    </section>
+
+    <section>
+      <h2>Los 12 signos</h2>
+      <div id="grid-signos" class="grid"></div>
+    </section>
+  </main>
+
+  <div id="modal" class="modal oculto">
+    <div class="modal-contenido">
+      <button id="cerrar-modal" class="cerrar">&times;</button>
+      <div id="detalle-signo"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

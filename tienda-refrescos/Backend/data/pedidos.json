@@ -1,0 +1,76 @@
+[
+  {
+    "pedidoId": "1789957980205",
+    "clienteId": "df279178-dde0-49fc-9ff8-c99997952a8a",
+    "detalle": [
+      {
+        "id": "ginger-ale",
+        "nombre": "Ginger Ale",
+        "cantidad": 1,
+        "subtotal": 24
+      }
+    ],
+    "total": 24,
+    "creadoEn": "2026-09-21T02:33:00.205Z"
+  },
+  {
+    "pedidoId": "1789962571392",
+    "clienteId": "9d0939ec-7d9b-403c-ad10-c47ca659b9e3",
+    "detalle": [
+      {
+        "id": "tonica",
+        "nombre": "Agua Tonica",
+        "cantidad": 1,
+        "subtotal": 25
+      },
+      {
+        "id": "ginger-ale",
+        "nombre": "Ginger Ale",
+        "cantidad": 1,
+        "subtotal": 24
+      }
+    ],
+    "total": 49,
+    "creadoEn": "2026-09-21T03:49:31.392Z"
+  },
+  {
+    "pedidoId": "1789963124824",
+    "clienteId": "45e1d8cf-ebb2-4d15-a387-a61577bb3e16",
+    "detalle": [
+      {
+        "id": "cola",
+        "nombre": "Cola Clasica",
+        "cantidad": 2,
+        "subtotal": 44
+      },
+      {
+        "id": "limon",
+        "nombre": "Limon Verde",
+        "cantidad": 1,
+        "subtotal": 20
+      }
+    ],
+    "total": 64,
+    "creadoEn": "2026-09-21T03:58:44.824Z"
+  },
+  {
+    "pedidoId": "1790207377358",
+    "clienteId": "7d16c7c4-f3a8-448c-bc30-1b98d4119074",
+    "detalle": [
+      {
+        "id": "cola-light",
+        "nombre": "Cola Light",
+        "cantidad": 1,
+        "subtotal": 22
+      },
+      {
+        "id": "cola",
+        "nombre": "Cola Clasica",
+        "cantidad": 1,
+        "subtotal": 22
+      }
+    ],
+    "total": 44,
+    "creadoEn": "2026-09-23T23:49:37.358Z"
+  }
+]

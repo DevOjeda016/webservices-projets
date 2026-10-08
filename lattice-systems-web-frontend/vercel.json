@@ -1,0 +1,10 @@
+{
+  "buildCommand": "ng build --configuration production",
+  "outputDirectory": "dist/lattice-systems-web-frontend/browser",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

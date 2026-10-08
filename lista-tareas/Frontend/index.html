@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista de Tareas</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Mis Tareas</h1>
+    <p id="estado-conexion" class="offline-badge oculto">Modo offline</p>
+  </header>
+
+  <main>
+    <form id="form-tarea">
+      <input type="text" id="input-tarea" placeholder="Escribe una nueva tarea..." required />
+      <button type="submit">Agregar</button>
+    </form>
+
+    <div class="filtros">
+      <button class="filtro activo" data-filtro="todas">Todas</button>
+      <button class="filtro" data-filtro="pendientes">Pendientes</button>
+      <button class="filtro" data-filtro="completadas">Completadas</button>
+    </div>
+
+    <ul id="lista-tareas"></ul>
+
+    <p id="contador-tareas"></p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

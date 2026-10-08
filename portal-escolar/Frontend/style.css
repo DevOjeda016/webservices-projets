@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, Arial, sans-serif;
+  background: #f4f6f8;
+  color: #2c2c2c;
+  margin: 0;
+  padding: 0 1rem 3rem;
+}
+
+header {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 0 1rem;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 1rem;
+  font-size: 2rem;
+  color: #1a5276;
+  text-align: center;
+}
+
+.offline-badge {
+  display: inline-block;
+  background: #c0392b;
+  color: #fff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  margin: 0 auto 1rem;
+  text-align: center;
+  width: fit-content;
+}
+
+.oculto {
+  display: none !important;
+}
+
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tab {
+  border: 1px solid #1a5276;
+  background: #fff;
+  color: #1a5276;
+  border-radius: 999px;
+  padding: 0.5rem 1.25rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.tab.activo {
+  background: #1a5276;
+  color: #fff;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.vista {
+  display: none;
+}
+
+.vista.activa {
+  display: block;
+}
+
+h2 {
+  color: #1a5276;
+  font-size: 1.2rem;
+}
+
+.tarjeta-resumen {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.tarjeta-resumen h2 {
+  margin-top: 0;
+}
+
+.fila {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+  font-size: 0.95rem;
+}
+
+.fila:last-child {
+  border-bottom: none;
+}
+
+.fila span:first-child {
+  color: #777;
+}
+
+.fila span:last-child {
+  font-weight: 600;
+}
+
+.promedios {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.promedio-card {
+  flex: 1;
+  background: #1a5276;
+  color: #fff;
+  border-radius: 14px;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.promedio-card .valor {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.promedio-card .etiqueta {
+  font-size: 0.8rem;
+  opacity: 0.85;
+}
+
+.grado-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.grado-cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.grado-cabecera h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: #1a5276;
+}
+
+.badge-promedio {
+  background: #d5e8f7;
+  color: #1a5276;
+  border-radius: 999px;
+  padding: 0.2rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  color: #777;
+  font-weight: 600;
+}
+
+.cal-final {
+  font-weight: 700;
+  text-align: right;
+}
+
+.datos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.dato-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.dato-card .etiqueta {
+  font-size: 0.8rem;
+  color: #888;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.dato-card .valor {
+  font-weight: 600;
+}
+
+.nota {
+  grid-column: 1 / -1;
+  background: #fef5e7;
+  border: 1px solid #f5cba7;
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  font-size: 0.85rem;
+  color: #b9770e;
+}

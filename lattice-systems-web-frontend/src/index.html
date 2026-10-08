@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Lattice Systems: Software a la medida de tu operación</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#070d13" />
+    <meta
+      name="description"
+      content="Lattice Systems diseña, construye e integra sistemas, automatizaciones e integraciones a la medida de tu operación."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Lattice Systems: Software a la medida de tu operación" />
+    <meta
+      property="og:description"
+      content="Estudio de software: sistemas internos, automatización de procesos y productos propios impulsados por IA."
+    />
+    <meta property="og:image" content="/lattice-logo-dark.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Lattice Systems" />
+    <meta
+      name="twitter:description"
+      content="Software a la medida de tu operación. Sistemas, automatización e integraciones."
+    />
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <script>
+      // Set theme before first paint to avoid a flash of the wrong mode.
+      (function () {
+        try {
+          var saved = localStorage.getItem('ls-theme');
+          var dark = saved ? saved === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+          if (dark) document.documentElement.classList.add('dark');
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <app-root></app-root>
+  </body>
+</html>

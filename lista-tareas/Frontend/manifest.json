@@ -1,0 +1,15 @@
+{
+  "name": "Lista de Tareas",
+  "short_name": "Tareas",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#eef2f7",
+  "theme_color": "#2d6cdf",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

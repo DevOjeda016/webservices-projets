@@ -1,0 +1,64 @@
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# AI tooling (local only, never pushed to this public repo)
+.claude/
+.agents/
+.github/skills/
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/mcp.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+__screenshots__/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment & Config
+.env
+.env.local
+.env.*.local
+
+# Vercel (local project link, never pushed)
+.vercel/
+
+# Backend local data (contains real visitor contact info, never pushed to this public repo)
+Backend/data/mensajes.json
+Backend/node_modules
+
+# Build tools & package managers
+package-lock.json
+pnpm-lock.yaml
+yarn.lock

@@ -1,0 +1,5 @@
+
+> portal-escolar-backend@1.0.0 start
+> node server.js
+
+API Portal Escolar corriendo en http://localhost:3003

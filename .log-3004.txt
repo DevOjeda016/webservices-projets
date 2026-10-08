@@ -1,0 +1,5 @@
+
+> lattice-systems-web-backend@1.0.0 start
+> node server.js
+
+API Lattice Systems corriendo en http://localhost:3004
